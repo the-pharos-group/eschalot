@@ -24,6 +24,12 @@ Various combinations of big/little endian platforms, 32bit/64bit platforms,
 and gcc/pcc/llvm/clang static analizer were tested. Many bugs were uncovered,
 some were fixed, some are still there - see TODO list if interested.
 
+Requirements on Ubuntu 16:
+-------------------------
+
+```
+sudo apt-get install build-essential openssl libcurl4-openssl-dev libssl-dev
+```
 
 
 Compilation:
